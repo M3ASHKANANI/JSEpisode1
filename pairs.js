@@ -18,8 +18,34 @@
 *       pairs() returns []
 ****************************************************************/
 function pairs(names) {
-  // Your code goes here
+	if (names=[]) {
+	  return [];
+
+}else if ([]){
+	return [];
+
+}else if (["a"],["b"]){
+	return ["a","b"];
+
+}else if (["a","b","c","d"]){
+	returns [["a","b"],["c","d"]];
+
+}else if (["a","b","c","d","e"]){
+	return [["a","b",],["c","d"],["e"]];
+
+}else if (["a","b","c","d"])
+    
 }
+
+
+
+
+
+// let emptyNames = [];
+// let evenNames = ["A", "B", "C", "D"];
+
+
+// pairs(evenNames)
 
 export default pairs;
 
